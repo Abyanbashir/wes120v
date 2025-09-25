@@ -1,23 +1,61 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="no">
 <head>
-<title>Abyans nettside</title>
-Oversikt
-</title>
-<link rel="stylesheet" href="style.css"> 
-<link rel="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Om meg</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav> 
-        <a href ="#"Hjem></a>"
-        <a href="#">Om meg</a>"
-        <a href="#">Prosjekter</a>
-        <a href="#">Kontakt</a>
-        </nav> 
-<h1>Hei,Jeg heter Abyan</h1>
-<p>Jeg studerer it og ledelse <br/> I <strong>gamle dager</strong> var det denne
-teksten som ga <em>mat på bordet</em>, da man fikk betalt pr ord</p>
-<h2>Hei, igjen! En litt mindre tittel denne gang</h2>
-<p>Etter en tittel må det følge med litt mer tekst, ellers ser det rart ut</p>
+  <header>
+    <div class="logo">✨ Om Meg ✨</div>
+    <nav>
+      <ul>
+        <li><a href="#hjem">Hjem</a></li>
+        <li><a href="#interesser">Interesser</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hjem" class="hero">
+    <img src="https://via.placeholder.com/200" alt="Profilbilde" class="profile">
+    <h1>Hei, jeg heter [Ditt navn] 💖</h1>
+    <p>Velkommen til min lille nettside! Her deler jeg litt om meg selv og ting jeg liker.</p>
+    <a href="#interesser" class="btn">Utforsk mer</a>
+  </section>
+
+  <!-- Interesser -->
+  <section id="interesser" class="cards">
+    <h2>Mine interesser</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200/ffb6c1/fff?text=🎀" alt="Hobby 1">
+        <h3>Shopping</h3>
+        <p>Jeg elsker å finne fine klær, sko og accessories!</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200/dda0dd/fff?text=🎶" alt="Hobby 2">
+        <h3>Musikk</h3>
+        <p>Musikk er en stor del av hverdagen min og gir meg energi.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200/f8c8dc/fff?text=🌸" alt="Hobby 3">
+        <h3>Venner</h3>
+        <p>Jeg liker å tilbringe tid med venner, snakke og le sammen.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt" class="contact">
+    <h2>Kontakt meg</h2>
+    <p>Du kan nå meg på <a href="mailto:din.epost@example.com">din.epost@example.com</a></p>
+    <a href="mailto:din.epost@example.com" class="btn">Send en melding 💌</a>
+  </section>
+
+  <footer>
+    <p>© 2025 [Ditt navn] 🌷 Laget med kjærlighet og CSS</p>
+  </footer>
 </body>
 </html>
