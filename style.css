@@ -1,3 +1,4 @@
+
 /* Reset */
 * {
   margin: 0;
@@ -45,19 +46,20 @@ nav a:hover {
   color: #888;
 }
 
-/* Hero */
+/* Hero med rundt profilbilde */
 .hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  text-align: left;
+  text-align: center;
   padding: 6rem 2rem;
-  flex-wrap: wrap;
 }
 
-.hero-text {
-  max-width: 600px;
+.hero .profile {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #eee;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
 .hero h1 {
@@ -69,15 +71,6 @@ nav a:hover {
 .hero p {
   margin-bottom: 2rem;
   color: #555;
-}
-
-.profile {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #eee;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
 .btn {
