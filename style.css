@@ -1,3 +1,4 @@
+
 /* Reset */
 * {
   margin: 0;
@@ -6,10 +7,10 @@
 }
 
 body {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  background: #fff0f6;
-  color: #4a4a4a;
-  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+  background: #fffafa;
+  color: #444;
+  line-height: 1.7;
 }
 
 /* Header */
@@ -17,15 +18,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ffb6c1;
+  background: #f8bbd0;
   color: white;
   padding: 1rem 2rem;
-  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
 
 header .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
 }
 
 nav ul {
@@ -37,114 +38,117 @@ nav ul {
 nav a {
   color: white;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
+  transition: opacity 0.3s;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  opacity: 0.8;
 }
 
 /* Hero */
 .hero {
   text-align: center;
-  padding: 3rem 1rem;
-  background: linear-gradient(to bottom right, #ffcce7, #f8c8dc);
+  padding: 4rem 1rem;
+  background: linear-gradient(to bottom right, #f9d5e5, #fcefee);
 }
 
 .hero .profile {
   border-radius: 50%;
-  width: 150px;
-  margin-bottom: 1rem;
-  border: 5px solid white;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 160px;
+  margin-bottom: 1.5rem;
+  border: 6px solid white;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 .hero h1 {
-  margin-bottom: 0.5rem;
-  color: #d63384;
+  margin-bottom: 1rem;
+  color: #a64ca6;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .hero p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-size: 1.1rem;
-  color: #6a0572;
+  color: #555;
 }
 
-/* Knapp */
+/* Button */
 .btn {
   display: inline-block;
-  background: #d63384;
+  background: #a64ca6;
   color: white;
-  padding: 0.7rem 1.5rem;
-  border-radius: 25px;
+  padding: 0.8rem 1.8rem;
+  border-radius: 30px;
   text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(166, 76, 166, 0.3);
   transition: all 0.3s ease;
 }
 
 .btn:hover {
-  background: #a61e4d;
-  transform: scale(1.05);
+  background: #7a287a;
+  transform: translateY(-2px);
 }
 
-/* Kort-seksjon */
+/* Cards */
 .cards {
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   text-align: center;
 }
 
 .cards h2 {
-  color: #a61e4d;
-  margin-bottom: 1.5rem;
+  color: #a64ca6;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2rem;
   justify-content: center;
 }
 
 .card {
   background: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  width: 280px;
-  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  width: 300px;
+  padding: 1.5rem;
   transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-6px);
 }
 
 .card img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-bottom: 1rem;
 }
 
-/* Kontakt */
+/* Contact */
 .contact {
-  background: #ffe6f2;
+  background: #fce4ec;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
 }
 
 .contact h2 {
-  color: #d63384;
+  color: #a64ca6;
   margin-bottom: 1rem;
-}
-
-.contact a {
-  margin-top: 1rem;
 }
 
 /* Footer */
 footer {
-  background: #ffb6c1;
+  background: #a64ca6;
   color: white;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
   font-size: 0.9rem;
 }
+
