@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background: #fff3cf; /* krem-hvit */
+  background: #fdf5dc; /* krem-hvit */
   color: #222;
   line-height: 1.7;
   font-size: 16px;
@@ -109,7 +109,7 @@ nav a:hover {
 }
 
 .card {
-  background: white;
+  background: rgb(209, 247, 202);
   border: 1px solid #eee;
   border-radius: 12px;
   padding: 1.5rem;
