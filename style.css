@@ -109,8 +109,8 @@ nav a:hover {
 }
 
 .card {
-  background: rgb(228, 247, 225);
-  border: 1px solid #eee;
+  background: rgb(173, 192, 163);
+  border: 1px solid #0f0f0f;
   border-radius: 12px;
   padding: 1.5rem;
   text-align: left;
@@ -140,7 +140,7 @@ nav a:hover {
 }
 
 .contact a {
-  color: #444;
+  color: #ffffff;
   text-decoration: underline;
   transition: color 0.2s;
 }
@@ -155,5 +155,5 @@ footer {
   text-align: center;
   padding: 1.5rem;
   font-size: 0.9rem;
-  color: #666;
+  color: #0c0c0c;
 }
