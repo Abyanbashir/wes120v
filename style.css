@@ -57,7 +57,7 @@ nav a:hover {
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #c62222;
+  border: 3px solid #c90000;
   margin-bottom: 2rem;
   box-shadow: 0 6px 16px rgba(0,0,0,0.01);
 }
@@ -76,7 +76,7 @@ nav a:hover {
 .btn {
   display: inline-block;
   padding: 0.8rem 1.8rem;
-  border: 1px solid #ccc;
+  border: 1px solid #32008f;
   border-radius: 30px;
   text-decoration: none;
   color: #333;
