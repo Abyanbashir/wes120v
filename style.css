@@ -76,10 +76,10 @@ nav a:hover {
 .btn {
   display: inline-block;
   padding: 0.8rem 1.8rem;
-  border: 1px solid #32008f;
+  border: 1px solid #ffffff;
   border-radius: 30px;
   text-decoration: none;
-  color: #149c43;
+  color: #000000;
   font-weight: 500;
   transition: all 0.3s ease;
 }
@@ -131,7 +131,7 @@ nav a:hover {
 .contact {
   padding: 5rem 2rem;
   text-align: center;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #000000;
 }
 
 .contact h2 {
@@ -140,7 +140,7 @@ nav a:hover {
 }
 
 .contact a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: underline;
   transition: color 0.2s;
 }
